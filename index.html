@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuizApp</title>
+    <script
+      src="https://kit.fontawesome.com/1935d064dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <main class="main-container">
+        <section class="quiz-box">
+            <section class="quiz" id="quiz">
+                <!-- Quiz Title -->
+                <header>
+                    <h1>JavaScript Quiz App</h1>
+                </header>
+
+                <section class="quiz-header">
+                        <p class="progress" id="progress"> Question x of y</p>
+                        <p class="count-down" id="count-down"></p>
+                </section>
+
+                <p class="question" id="question">What is your name?</p>
+
+                <section class="buttons" id="buttons">
+                    <button class="btn" id="btn0">
+                        A. <span id="choice0"></span>
+                    </button>
+                    <button class="btn" id="btn1">
+                        B. <span id="choice1"></span>
+                    </button>
+                    <button class="btn" id="btn2">
+                        C. <span id="choice2"></span>
+                    </button>
+                    <button class="btn" id="btn3">
+                        D. <span id="choice3"></span>
+                    </button>
+                </section>
+
+                <hr>
+
+                <footer>
+                    <p>Tutorials</p>
+                </footer>
+
+            </section>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
